@@ -9,8 +9,8 @@
     "servers": [
       {
         "id": "StealLife-1.12.2",
-        "name": "StealLife (Minecraft 1.12.2)",
-        "description": "StealLife Running Minecraft 1.12.2 (Forge v14.23.5.2859)",
+        "name": "StealLife (Forge 1.12.2)",
+        "description": "StealLife, One life no problem",
         "icon": null,
         "version": "1.0.0",
         "address": "game1.librahost.fr:25575",
