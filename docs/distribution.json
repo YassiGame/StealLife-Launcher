@@ -1,6 +1,6 @@
 {
   "version": "1.1.1",
-  "rss": "https://westeroscraft.com/articles/index.rss",
+  "rss": "https://rss.steallifefr.tk/index.rss",
   "discord": {
     "clientId": "953667521230286888",
     "smallImageText": "A Minecraft Launcher",
@@ -16,7 +16,7 @@
       "address": "game1.librahost.fr:25575",
       "minecraftVersion": "1.12.2",
       "discord": {
-        "shortId": "StealLife.fr",
+        "shortId": "1 vie, des possibilités illimitées.",
         "largeImageText": "Steal Life",
         "largeImageKey": "logo"
       },
