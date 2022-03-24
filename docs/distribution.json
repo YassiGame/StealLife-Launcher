@@ -1,25 +1,15 @@
 {
-  "version": "1.1.1",
-  "rss": "https://rss.steallifefr.tk/index.rss",
-  "discord": {
-    "clientId": "953667521230286888",
-    "smallImageText": "A Minecraft Launcher",
-    "smallImageKey": "minecraft-logo"
-  },
+  "version": "1.0.0",
+  "rss": "https://westeroscraft.com/articles/index.rss",
   "servers": [
     {
       "id": "StealLife-1.12.2",
       "name": "StealLife (Forge 1.12.2)",
       "description": "StealLife, One Hearth, No Probelm !",
-      "icon": "https://cdn.discordapp.com/attachments/955529733779619880/955529899941183518/Steal_Life_Logo_2022.png",
-      "version": "1.0.1",
+      "icon": null,
+      "version": "1.0.3",
       "address": "game1.librahost.fr:25575",
       "minecraftVersion": "1.12.2",
-      "discord": {
-        "shortId": "1 vie, des possibilités illimitées.",
-        "largeImageText": "Steal Life",
-        "largeImageKey": "logo"
-      },
       "mainServer": true,
       "autoconnect": false,
       "modules": [
@@ -1661,6 +1651,16 @@
           }
         },
         {
+          "id": "me.hypherionmc.simplerpc:simple-rpc:2.7.2@jar",
+          "name": "Simple RPC",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1125013,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/forgemods/required/simple-rpc-1.12.2-2.7.2.jar",
+            "MD5": "503b7c1ea69bf20a4fc66616aedb7797"
+          }
+        },
+        {
           "id": "com.flansmod.simple:simplepartspack:5.7.2@jar",
           "name": "Simple Parts Pack",
           "type": "ForgeMod",
@@ -2070,6 +2070,17 @@
             "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/config/ftbutilities.cfg",
             "MD5": "9ce088fc045c7e10012614991d67db8b",
             "path": "config/ftbutilities.cfg"
+          }
+        },
+        {
+          "id": "simple-rpc.toml",
+          "name": "simple-rpc.toml",
+          "type": "File",
+          "artifact": {
+            "size": 8449,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/config/simple-rpc.toml",
+            "MD5": "0cabb742f9d2972248d494462997ab29",
+            "path": "config/simple-rpc.toml"
           }
         },
         {
