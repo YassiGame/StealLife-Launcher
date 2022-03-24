@@ -266,6 +266,16 @@
           }
         },
         {
+          "id": "me.hypherionmc.simplerpc:simple-rpc:2.7.2@jar",
+          "name": "Simple RPC",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1125013,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/forgemods/required/aa_simple-rpc-1.12.2-2.7.2.jar",
+            "MD5": "503b7c1ea69bf20a4fc66616aedb7797"
+          }
+        },
+        {
           "id": "com.lothrazar:absentbydesign:1.12.2-1.0.4@jar",
           "name": "Absentbydesign Mod",
           "type": "ForgeMod",
@@ -1651,16 +1661,6 @@
           }
         },
         {
-          "id": "me.hypherionmc.simplerpc:simple-rpc:2.7.2@jar",
-          "name": "Simple RPC",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1125013,
-            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/forgemods/required/simple-rpc-1.12.2-2.7.2.jar",
-            "MD5": "503b7c1ea69bf20a4fc66616aedb7797"
-          }
-        },
-        {
           "id": "com.flansmod.simple:simplepartspack:5.7.2@jar",
           "name": "Simple Parts Pack",
           "type": "ForgeMod",
@@ -2077,9 +2077,9 @@
           "name": "simple-rpc.toml",
           "type": "File",
           "artifact": {
-            "size": 8449,
+            "size": 7696,
             "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/config/simple-rpc.toml",
-            "MD5": "0cabb742f9d2972248d494462997ab29",
+            "MD5": "c1018687b80532a78beffc26f1b8bd49",
             "path": "config/simple-rpc.toml"
           }
         },
