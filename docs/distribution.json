@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "rss": "https://westeroscraft.com/articles/index.rss",
+  "version": "1.1.1",
+  "rss": "https://rss.steallifemc.tk/launcher.xml",
   "servers": [
     {
       "id": "StealLife-1.12.2",
