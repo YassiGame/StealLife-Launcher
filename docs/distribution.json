@@ -276,20 +276,6 @@
           }
         },
         {
-          "id": "mods.betterfoliage:betterfoliage:2.3.2@jar",
-          "name": "Better Foliage",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 864681,
-            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/forgemods/optionaloff/BetterFoliage-MC1.12-2.3.3.jar",
-            "MD5": "7db208487613e3f248b5c1b479d5ae0e"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
           "id": "lumien.custombackgrounds:custombackgrounds:1.1.1@jar",
           "name": "Custom Backgrounds",
           "type": "ForgeMod",
