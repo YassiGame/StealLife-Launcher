@@ -1,16 +1,662 @@
 {
-  "version": "1.1.3",
+  "version": "1.2.0",
   "rss": "https://westeroscraft.com/articles/index.rss",
   "servers": [
     {
+      "id": "LaContre-1.16.5",
+      "name": "La Contrée des royaumes V2 (Forge Lite 1.16.5)",
+      "description": "La Contrée des royaumes moderne ? Enfin, je pense...",
+      "icon": "https://cdn.discordapp.com/attachments/967416326798856192/967416743054147665/Sans_titre2.jpg",
+      "version": "1.0.0",
+      "address": "game1.librahost.fr:25575",
+      "minecraftVersion": "1.16.5",
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.16.5-36.2.34",
+          "name": "Minecraft Forge (base jar)",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 212608,
+            "MD5": "e8de93b1e25fcb60d847b2565d35369c",
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/net/minecraftforge/forge/1.16.5-36.2.34/forge-1.16.5-36.2.34.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.16.5-36.2.34",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 13577,
+                "MD5": "9cc72898a14a7d162d6813443761d30a",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/versions/1.16.5-forge-36.2.34/1.16.5-forge-36.2.34.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forge:1.16.5-36.2.34:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 2773337,
+                "MD5": "521b6d8bfa23e4e00da77f4a07f01f8f",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/net/minecraftforge/forge/1.16.5-36.2.34/forge-1.16.5-36.2.34-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.16.5-36.2.34:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 4214137,
+                "MD5": "8d8990d72f63d109f68fedf74182a3ea",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/net/minecraftforge/forge/1.16.5-36.2.34/forge-1.16.5-36.2.34-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "artifact": {
+                "size": 11352644,
+                "MD5": "b49fc8b041e01078627eb0cfa5adeada",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "artifact": {
+                "size": 9118806,
+                "MD5": "df78297c0b6526e16f2bb7a685fd6b96",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "artifact": {
+                "size": 8428369,
+                "MD5": "dbed747390f81e10cee40500b726431a",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "org.ow2.asm:asm:9.1",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 121790,
+                "MD5": "54b9f5d15e4877a4ea4cf9ec48e07afa",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/org/ow2/asm/asm/9.1/asm-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.1",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72641,
+                "MD5": "81cc6b8f5ce8f2767d39fbd4b6c37a6a",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.1",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 52662,
+                "MD5": "c2536add9ebcfa8066fcfb0dbe865879",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.1",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 84679,
+                "MD5": "2f1a28f6b0f3e02b17d38a0f657a1527",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/org/ow2/asm/asm-util/9.1/asm-util-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.1",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34257,
+                "MD5": "f0e82941173b6049c03e8214ace70ecd",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:8.1.3",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 126747,
+                "MD5": "b6ba74224a6a68e6fb3e9cf3d72b9344",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/cpw/mods/modlauncher/8.1.3/modlauncher-8.1.3.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:grossjava9hacks:1.3.3",
+              "name": "Minecraft Forge (grossjava9hacks)",
+              "type": "Library",
+              "artifact": {
+                "size": 2113,
+                "MD5": "d19b487241008d8e6111137a289ea1d7",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/cpw/mods/grossjava9hacks/1.3.3/grossjava9hacks-1.3.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:3.0.1",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 76586,
+                "MD5": "ada4c365c3d0de73c05a94010432b547",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/net/minecraftforge/accesstransformers/3.0.1/accesstransformers-3.0.1.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:4.0.0",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 42873,
+                "MD5": "84c4758e6139b70146104be5bb1300b5",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/net/minecraftforge/eventbus/4.0.0/eventbus-4.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:3.2.0",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 20172,
+                "MD5": "8f1f6942d17d88d704324e8000666a1a",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/net/minecraftforge/forgespi/3.2.0/forgespi-3.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:4.0.6",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 25453,
+                "MD5": "e56551f2586d3ff08beb24f5ea44a7d3",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/net/minecraftforge/coremods/4.0.6/coremods-4.0.6.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.3",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199091,
+                "MD5": "093b0ca357d3f8b922170b8d7f43948c",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/com/electronwill/night-config/core/3.6.3/core-3.6.3.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.3",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31288,
+                "MD5": "615b8e62371c536f876764591990118d",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.12.1",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 732926,
+                "MD5": "ffd8c9d6eb8a8456ef505c8ef9fc777d",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/org/jline/jline/3.12.1/jline-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.6.3",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 57824,
+                "MD5": "b83c1943a0783f3f81d4cd4c83c363e1",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0",
+              "name": "Minecraft Forge (log4j-slf4j18-impl)",
+              "type": "Library",
+              "artifact": {
+                "size": 21223,
+                "MD5": "196442f1bdde4dbb0f576eed616e21b0",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78146,
+                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.4",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1069391,
+                "MD5": "25fbb8ff965e88cc2252c99be0cf5cbb",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:nashorn-core-compat:15.1.1.1",
+              "name": "Minecraft Forge (nashorn-core-compat)",
+              "type": "Library",
+              "artifact": {
+                "size": 2194057,
+                "MD5": "ae37ed8407982eefc9f85fdb1c95a3a0",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/net/minecraftforge/nashorn-core-compat/15.1.1.1/nashorn-core-compat-15.1.1.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "dev.tr7zw.skinlayers:skinlayers3d:1.1.0@jar",
+          "name": "3dSkinLayers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 380495,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/LaContre-1.16.5/forgemods/optionaloff/3dSkinLayers-forge-1.1.0.jar",
+            "MD5": "dba8ab24194f55b0cc4d5d1039ce86e3"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.4.0+mc1.16.4@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 47735,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/LaContre-1.16.5/forgemods/optionaloff/appleskin-forge-mc1.16.x-2.4.0.jar",
+            "MD5": "ec6a10073c12f4e2ca787f3a808d9531"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "biomesoplenty.core:biomesoplenty:1.16.5-13.1.0.486@jar",
+          "name": "Biomes O' Plenty",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3651046,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/LaContre-1.16.5/forgemods/required/BiomesOPlenty-1.16.5-13.1.0.486-universal.jar",
+            "MD5": "2967bbf701add4922933fdf0815df05e"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.furniture:cfm:7.0.0-pre22@jar",
+          "name": "MrCrayfish's Furniture Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2033912,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/LaContre-1.16.5/forgemods/required/cfm-7.0.0pre22-1.16.3.jar",
+            "MD5": "b2a5f7a361279de6bb5f51246ad36484"
+          }
+        },
+        {
+          "id": "tfar.classicbar:classicbar:4.1.0-1.16.5@jar",
+          "name": "Classic Bar",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 64058,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/LaContre-1.16.5/forgemods/optionalon/classicbar-4.1.0-1.16.5.jar",
+            "MD5": "edba6d6040e629b695f4a68aad05a854"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.blamejared:controlling:7.0.0.28@jar",
+          "name": "Controlling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 55307,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/LaContre-1.16.5/forgemods/optionaloff/Controlling-7.0.0.28.jar",
+            "MD5": "e7f729432d2236d3fccac400ffb1dd5c"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.simibubi:create:v0.3.2g@jar",
+          "name": "Create",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11564279,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/LaContre-1.16.5/forgemods/required/create-mc1.16.5_v0.3.2g.jar",
+            "MD5": "84ec13d5bccfa71a09783ecb6e089b20"
+          }
+        },
+        {
+          "id": "com.mrh0:createaddition:1.16.5-20220129a@jar",
+          "name": "Create Crafts & Additions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 834203,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/LaContre-1.16.5/forgemods/required/createaddition-1.16.5-20220129a.jar",
+            "MD5": "250fd90a842bb6c1071c58f09ff2febf"
+          }
+        },
+        {
+          "id": "dev.tr7zw.firstperson:firstpersonmod:2.0.1@jar",
+          "name": "FirstPersonModel Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 536946,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/LaContre-1.16.5/forgemods/optionaloff/FirstPersonMod-2.0.1.jar",
+            "MD5": "91ed31caab43002e05ee65b73f4045b3"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.jozufozu:flywheel:1.16-0.2.5@jar",
+          "name": "Flywheel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 420923,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/LaContre-1.16.5/forgemods/required/flywheel-1.16-0.2.5.jar",
+            "MD5": "0964200fddbd4ff67dfab63c5aae161a"
+          }
+        },
+        {
+          "id": "dev.gigaherz:hudcompass:${version}@jar",
+          "name": "HUD Compass",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 185578,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/LaContre-1.16.5/forgemods/optionaloff/HudCompass-1.16.5-0.5.0.jar",
+            "MD5": "f61ae815b60ac1e0957626494eb72a2a"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.progwml6:ironchest:1.16.5-11.2.21@jar",
+          "name": "Iron Chests",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 258298,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/LaContre-1.16.5/forgemods/required/ironchest-1.16.5-11.2.21.jar",
+            "MD5": "ad813ff46d3c9ba127e1033bfe957758"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:7.7.1.152@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 828677,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/LaContre-1.16.5/forgemods/required/jei-1.16.5-7.7.1.152.jar",
+            "MD5": "fb5fe43b43be01abc6c24eff29791b52"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.8.1@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6685744,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/LaContre-1.16.5/forgemods/optionalon/journeymap-1.16.5-5.8.1.jar",
+            "MD5": "bfcfbbfecabb267585b01d3ff4c9e283"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "slimeknights.mantle:mantle:1.6.157@jar",
+          "name": "Mantle",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 806737,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/LaContre-1.16.5/forgemods/required/Mantle-1.16.5-1.6.157.jar",
+            "MD5": "e5ee7cb043a90615d0fdacffbc1f6790"
+          }
+        },
+        {
+          "id": "mekanism:mekanism:10.1.2@jar",
+          "name": "Mekanism",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11181433,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/LaContre-1.16.5/forgemods/required/Mekanism-1.16.5-10.1.2.457.jar",
+            "MD5": "bcfbd6b2d63020cdbf42b9c2d643b956"
+          }
+        },
+        {
+          "id": "mekanism.additions:mekanismadditions:10.1.2@jar",
+          "name": "Mekanism: Additions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1078058,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/LaContre-1.16.5/forgemods/required/MekanismAdditions-1.16.5-10.1.2.457.jar",
+            "MD5": "694caa7a64411e7dcd85be4d40689ec1"
+          }
+        },
+        {
+          "id": "mekanism.generators:mekanismgenerators:10.1.2@jar",
+          "name": "Mekanism: Generators",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 985334,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/LaContre-1.16.5/forgemods/required/MekanismGenerators-1.16.5-10.1.2.457.jar",
+            "MD5": "8e0854f544510952dda70eb3c840638e"
+          }
+        },
+        {
+          "id": "mekanism.tools:mekanismtools:10.1.2@jar",
+          "name": "Mekanism: Tools",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 368033,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/LaContre-1.16.5/forgemods/required/MekanismTools-1.16.5-10.1.2.457.jar",
+            "MD5": "7742cf452e949b171884457cedabdce1"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.14@jar",
+          "name": "Mouse Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 58249,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/LaContre-1.16.5/forgemods/required/MouseTweaks-2.14-mc1.16.2.jar",
+            "MD5": "3b4e04a9a79094149306457c7db838d5"
+          }
+        },
+        {
+          "id": "dev.tr7zw:notenoughanimations:1.2.4@jar",
+          "name": "NotEnoughAnimations Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 308348,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/LaContre-1.16.5/forgemods/required/notenoughanimations-1.2.4.jar",
+            "MD5": "bdf41ab36dff9de8353b0f48d9e2326c"
+          }
+        },
+        {
+          "id": "wolforce.simpleshops:simpleshops:1.1.3@jar",
+          "name": "Simple Shops",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 114137,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/LaContre-1.16.5/forgemods/required/simpleshops-1.1.3.jar",
+            "MD5": "fb650ce5cf978d5ab09cad91e00006ad"
+          }
+        },
+        {
+          "id": "com.jaquadro.minecraft:storagedrawers:8.5.1@jar",
+          "name": "Storage Drawers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 575661,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/LaContre-1.16.5/forgemods/required/StorageDrawers-1.16.3-8.5.1.jar",
+            "MD5": "dc4993c727338dee8b1d7a8c4a6ee0b3"
+          }
+        },
+        {
+          "id": "slimeknights.tconstruct:tconstruct:3.3.4.335@jar",
+          "name": "Tinkers' Construct",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10927812,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/LaContre-1.16.5/forgemods/required/TConstruct-1.16.5-3.3.4.335.jar",
+            "MD5": "27978fc015dc861fb4d856d84d123e1a"
+          }
+        },
+        {
+          "id": "mcjty.theoneprobe:theoneprobe:1.16-3.1.7@jar",
+          "name": "The One Probe",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 326985,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/LaContre-1.16.5/forgemods/required/theoneprobe-1.16-3.1.7.jar",
+            "MD5": "7a6c1857197e8f73a618459f4efb339d"
+          }
+        },
+        {
+          "id": "dev.tr7zw:transliterationlib:1.0.4@jar",
+          "name": "TRansliterationLib Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 922991,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/LaContre-1.16.5/forgemods/required/TRansliterationLib-1.0.4.jar",
+            "MD5": "59f38e590dc30a6ec438d4ded004dd6d"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.16.5-2.2.36@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5688390,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/LaContre-1.16.5/forgemods/required/voicechat-forge-1.16.5-2.2.36.jar",
+            "MD5": "caec1e13850c8fb483ff351a36d7b912"
+          }
+        },
+        {
+          "id": "net.blay09.mods:waystones:7.6.4@jar",
+          "name": "Waystones",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 375934,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/LaContre-1.16.5/forgemods/required/Waystones_1.16.5-7.6.4.jar",
+            "MD5": "a73806ee8f30e26705503013a54a5961"
+          }
+        }
+      ]
+    },
+    {
       "id": "StealLife-1.12.2",
-      "name": "StealLife (Forge 1.12.2)",
+      "name": "StealLife [REVIVE MODE] (Forge 1.12.2)",
       "description": "StealLife, One Hearth, No Probelm !",
-      "icon": "https://cdn.discordapp.com/attachments/955529733779619880/955529899941183518/Steal_Life_Logo_2022.png",
-      "version": "1.0.4",
+      "icon": "https://cdn.discordapp.com/attachments/967416326798856192/967424033136214086/LoadingSeal9.png",
+      "version": "1.0.3",
       "address": "game1.librahost.fr:25575",
       "minecraftVersion": "1.12.2",
-      "mainServer": true,
+      "mainServer": false,
       "autoconnect": false,
       "modules": [
         {
